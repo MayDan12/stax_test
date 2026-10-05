@@ -40,6 +40,8 @@ const STORAGE_KEYS = {
   USE_PROXY: "stax_use_proxy",
 };
 
+// ydxcytuvhuytygh
+
 export default function StaxMiniAppPage() {
   // Connection & Session State
   const [baseUrl, setBaseUrl] = useState(() =>
