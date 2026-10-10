@@ -47,8 +47,8 @@ export default function StaxMiniAppPage() {
   const [baseUrl, setBaseUrl] = useState(() =>
     typeof window !== "undefined"
       ? localStorage.getItem(STORAGE_KEYS.BASE_URL) ||
-        "http://localhost:8000/v1"
-      : "http://localhost:8000/v1",
+        "https://stax-automation.onrender.com/v1"
+      : "https://stax-automation.onrender.com/v1",
   );
   const [useProxy, setUseProxy] = useState(() =>
     typeof window !== "undefined"

@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const DEFAULT_BACKEND_BASE =
-  process.env.NEXT_PUBLIC_STAX_API_URL || "http://localhost:8000/v1";
+  process.env.NEXT_PUBLIC_STAX_API_URL ||
+  "https://stax-automation.onrender.com/v1";
 
 interface StaxRouteContext {
   params: Promise<{ path: string[] }>;
